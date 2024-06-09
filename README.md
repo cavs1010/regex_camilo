@@ -20,6 +20,8 @@ Regular expressions (regex) are powerful tools for string manipulation and patte
 
 ## 🔹 Quantifiers
 
+- **`.`**: Matches any single character except newline ⚪
+  - Example: `a.b` matches `'aab', 'abb', 'a1b', 'a@b', ...` 🙂
 - **`*`**: Matches 0 or more repetitions 🌟
   - Example: `a*` matches `'', 'a', 'aa', 'aaa', ...`
 - **`+`**: Matches 1 or more repetitions ➕
