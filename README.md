@@ -30,8 +30,11 @@ Regular expressions (regex) are powerful tools for string manipulation and patte
   - Example: `a?` matches `'', 'a'`
 - **`{n}`**: Matches exactly `n` repetitions 🔢
   - Example: `a{3}` matches `'aaa'`
+- **`{n,}`**: Matches `n` or more repetitions 🔢➕
+  - Example: `a{4,}` matches `'aaaa', 'aaaaa', 'aaaaaa', ...`
 - **`{n,m}`**: Matches between `n` and `m` repetitions 🧮
   - Example: `a{2,4}` matches `'aa', 'aaa', 'aaaa'`
+
 
 ## 🔹 Anchors
 
